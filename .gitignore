@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and output
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.log
+*.out
+*.tmp
+*.dat
+*.json
+*.pickle
+*.pkl
+*.feather
+*.npy
+*.npz
+
+# Google Drive/Cloud Storage artifacts
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Ignore references folder if it contains only docs or data
+references/
